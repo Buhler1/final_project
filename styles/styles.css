@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+
+/* UNIVERSALS */
+
+html, body {
+    height:100%;
+    width:100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0066ff;
+}
+
+a:hover, a:visited {
+    color: #fff;
+}
+
+body {
+    height: 1100px;
+}
+/* HEADER STYLES */
+
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav-links {
+    float: right;
+    
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+#nav-links li {
+   padding: 10px;
+   background-color: #0d0d0d;
+   border-radius: 5px 5px 0 0;
+}
+
+.hero-text {
+    padding-top: 150px;
+    font-size: 48px;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* MAIN BODY */
+
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-top: -27px;
+    background-image: url('../img/climbing image2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+}
+
